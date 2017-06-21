@@ -7,6 +7,10 @@ Git adds a directory named .git which makes the diretory a repository after all.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+Files in the staging area are allready known by GIT, but still kind of 'personal' files. So if there are still any problems or bugs you can fix it and make the commit later, when there is a runnalbe status of the code.
+
+
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 

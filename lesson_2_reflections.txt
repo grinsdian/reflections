@@ -14,13 +14,32 @@ Files in the staging area are allready known by GIT, but still kind of 'personal
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+By adding those files to the staging area in which code has been changed for that logical change, the following commit will take all the files from the staging area and commit them in one step to the repository.
+
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Especially when trying to make bigger changes or experimental changes to a system, which is actually working fine, a branch would be a good idea. In that way, you can implement the planned changes but also can keep the existing and running version of your programm. 
+
+
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams make clear, which entries are reachable from which 'node' and where a branch starts.
+
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging branches is the sum of all differences of both branches. Since it brings together the two separate branches to one file, the representation of the diagram goes back to one line, too.
+
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automatic merging can lead to explicit fixes when it fails, but on the other hand saves work for you to do compared with manual merging.
+Doing manual merging requires you to think about the correct time to do (and doing it at all), but keeps you from 'unplanned' errors.

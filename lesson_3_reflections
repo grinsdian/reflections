@@ -10,10 +10,17 @@ automatically stay up-to-date with your remote repository?
  Since other members of a project could (or should) work on the files either, it should be granted that the files have a status to be possibly be worked on.
  
 
+
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+ Forks are kind of a clone in the repository - and give you the possibility, to copy someones repository and than work on it the way you want to; there are no changes to the original repository.
+ Clones are copies of a repository on your computer, where the changes you make will also be done in the original repository after commiting.
+ A branch is kind of a different version of a file after a certain point (when you start the branch) and can be merged later on with a different branch (or the master-branch), if required.
+
+ Branches are good for doing something new or experimental or tests; clones are good, when working in teams; forks are good, when working on your own version or with your own team - but using an already implemented version of someone else.
+
+ 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?

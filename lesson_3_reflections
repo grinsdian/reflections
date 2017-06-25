@@ -26,7 +26,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+ In that way you can minimize the possibility of getting any merging conflicts, since you can be sure to have the most actual version of the files in the remote and therefore of all people in the project.
+
+ 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
